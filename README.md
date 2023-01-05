@@ -21,10 +21,10 @@ Example 1:
     ]
   
 Result: 
-    product:gold|amount:2|price:42000
-    product:copper|amount:1|price:10000
-    product:silver|amount:2|price:32000
-    product:emerald|amount:1|price:9999
+    - product:gold|amount:2|price:42000
+    - product:copper|amount:1|price:10000
+    - product:silver|amount:2|price:32000
+    - product:emerald|amount:1|price:9999
 ---------------------------------------------------------------------------------------------------------------------    
 Example 2:
   testCase_2
