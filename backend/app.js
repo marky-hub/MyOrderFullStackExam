@@ -24,7 +24,6 @@ mongodb.MongoClient.connect(connectionString, { useNewUrlParser: true }, (error,
   app.get('/:id', async (req, res) => {
     const id = req.params.id;
     const doc = await collection.findOne({ id });
-    console.log("id:",id)
     if (!doc) {
       res.send('Invalid URL');
       return;
@@ -47,7 +46,6 @@ mongodb.MongoClient.connect(connectionString, { useNewUrlParser: true }, (error,
     const id = shortid.generate();
     const doc = { url, id };
     await collection.insertOne(doc);
-    console.log(doc);
     res.send(`http://localhost:3000/${id}`);
   });
 
