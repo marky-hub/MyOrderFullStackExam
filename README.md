@@ -12,4 +12,7 @@
 
 ### 2. Up To You
 จงออกแบบข้อสอบเอง พร้อมเฉลย อย่างน้อย 1 ข้อ
-
+=> ข้อสอบ logic จงหาผลลัพธ์จากรายการสินค้าใน Jewelry market โดยแยกตาม product และบอกว่ามีทั้งหมดกี่ชิ้น และราคารวมแต่ละ product เท่าไหร่
+ตัวอย่าง ![image](https://user-images.githubusercontent.com/53657573/210800529-f26ee29c-f1c5-4930-8138-5daa89e05856.png)
+ 
+เฉลย run ด้วย node uptoyouExam.js
